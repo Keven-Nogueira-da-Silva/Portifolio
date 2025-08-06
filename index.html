@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keven Nogueira da Silva - Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- Header -->
+  <header class="bg-gray-800 fixed w-full z-10 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-xl font-bold text-indigo-400">Keven Nogueira</h1>
+      <nav class="space-x-6">
+        <a href="#home" class="hover:text-indigo-400 transition">Início</a>
+        <a href="#skills" class="hover:text-indigo-400 transition">Habilidades</a>
+        <a href="#certificates" class="hover:text-indigo-400 transition">Certificados</a>
+        <a href="#projects" class="hover:text-indigo-400 transition">Projetos</a>
+        <a href="#contact" class="hover:text-indigo-400 transition">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+    <!-- Hero Section with Photo -->
+    <section class="min-h-screen flex items-center justify-center bg-gray-900 pt-16" id="home">
+      <div class="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center">
+        <!-- Text Content -->
+        <div class="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
+          <h2 class="text-4xl md:text-6xl font-bold mb-4">Olá, eu sou o Keven Nogueira da Silva</h2>
+          <p class="text-xl md:text-2xl text-indigo-400 mb-6">Desenvolvedor Back-End Java</p>
+          <p class="text-lg text-gray-400 mb-8 max-w-xl">
+          Sou apaixonado por desenvolvimento de software e pela liberdade que a programação proporciona — seja para resolver problemas complexos, criar soluções inovadoras ou simplesmente pelo prazer de construir algo do zero. A possibilidade de codar de qualquer lugar do mundo é algo que me motiva ainda mais, pois une liberdade, criatividade e propósito.
+
+            Para mim, programar vai muito além de uma profissão: é também uma forma de expressão, aprendizado contínuo e realização pessoal. Encaro cada projeto como uma oportunidade de evolução, buscando sempre escrever código limpo, eficiente e sustentável.
+
+            Estou em constante aperfeiçoamento técnico e pessoal, aberto a novos desafios, tecnologias e boas práticas. Acredito no poder da colaboração, da curiosidade e da dedicação como pilares fundamentais para crescer na área e contribuir com impacto real para os times e projetos dos quais faço parte.
+
+
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a href="#projects" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition text-center">
+              Ver Projetos
+            </a>
+            <a href="#contact" class="border border-indigo-400 text-indigo-400 hover:bg-indigo-400 hover:text-white px-6 py-3 rounded-lg font-medium transition text-center">
+              Contate-me
+            </a>
+          </div>
+        </div>
+        
+        <!-- Photo Container -->
+        <div class="md:w-1/2 flex justify-center">
+          <div class="relative">
+            <img 
+              src="IIMG/keven.png" 
+              alt="Foto de Keven Nogueira" 
+              class="profile-pic w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-xl"
+            >
+            <div class="absolute -inset-2 rounded-full border-2 border-indigo-400 opacity-20 animate-pulse"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12 text-center">Habilidades</h3>
+        
+        <!-- Hard Skills -->
+        <div class="mb-16">
+          <h4 class="text-2xl font-semibold mb-6 text-indigo-400 flex items-center justify-center">
+            <i class="fas fa-laptop-code mr-3"></i> Hard Skills
+          </h4>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            <!-- Java -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fab fa-java text-4xl mb-2 text-red-500"></i>
+              <span class="font-medium">Java</span>
+            </div>
+            <!-- Spring Boot -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fas fa-leaf text-4xl mb-2 text-green-500"></i>
+              <span class="font-medium">Spring Boot</span>
+            </div>
+            <!-- Git -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fab fa-git-alt text-4xl mb-2 text-orange-500"></i>
+              <span class="font-medium">Git</span>
+            </div>
+            <!-- GitHub -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fab fa-github text-4xl mb-2 text-gray-200"></i>
+              <span class="font-medium">GitHub</span>
+            </div>
+            <!-- MySQL -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fas fa-database text-4xl mb-2 text-blue-400"></i>
+              <span class="font-medium">MySQL</span>
+            </div>
+            <!-- HTML -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fab fa-html5 text-4xl mb-2 text-orange-400"></i>
+              <span class="font-medium">HTML</span>
+            </div>
+            <!-- CSS -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fab fa-css3-alt text-4xl mb-2 text-blue-500"></i>
+              <span class="font-medium">CSS</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Soft Skills -->
+        <div>
+          <h4 class="text-2xl font-semibold mb-6 text-indigo-400 flex items-center justify-center">
+            <i class="fas fa-user-friends mr-3"></i> Soft Skills
+          </h4>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <!-- Comunicação -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fas fa-comments text-4xl mb-2 text-purple-400"></i>
+              <span class="font-medium">Comunicação</span>
+            </div>
+            <!-- Liderança -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fas fa-users text-4xl mb-2 text-yellow-400"></i>
+              <span class="font-medium">Liderança</span>
+            </div>
+            <!-- Organização -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fas fa-tasks text-4xl mb-2 text-green-400"></i>
+              <span class="font-medium">Organização</span>
+            </div>
+            <!-- Trabalho em Equipe -->
+            <div class="skill-card bg-gray-700 p-4 rounded-lg flex flex-col items-center">
+              <i class="fas fa-hands-helping text-4xl mb-2 text-blue-300"></i>
+              <span class="font-medium">Trabalho em Equipe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12 text-center">Certificados</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Certificado 1 -->
+          <div class="certificate-card bg-gray-800 p-6 rounded-xl shadow cursor-pointer" onclick="openModal('0SDFKUOZ.pdf', 'Sintaxe Básica com Java - 6 horas')">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-certificate text-3xl text-indigo-400 mr-3"></i>
+              <h4 class="text-xl font-semibold">Sintaxe Básica com Java</h4>
+            </div>
+            <p class="text-gray-400 mb-2">Concluído em: 28/07/2025</p>
+            <p class="text-gray-400">Carga horária: 6 horas</p>
+          </div>
+          
+          <!-- Certificado 2 -->
+          <div class="certificate-card bg-gray-800 p-6 rounded-xl shadow cursor-pointer" onclick="openModal('AMHQJ7QY.pdf', 'Ganhando Produtividade com Stream API - 2 horas')">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-certificate text-3xl text-indigo-400 mr-3"></i>
+              <h4 class="text-xl font-semibold">Stream API</h4>
+            </div>
+            <p class="text-gray-400 mb-2">Concluído em: 01/08/2025</p>
+            <p class="text-gray-400">Carga horária: 2 horas</p>
+          </div>
+          
+          <!-- Certificado 3 -->
+          <div class="certificate-card bg-gray-800 p-6 rounded-xl shadow cursor-pointer" onclick="openModal('BBL60U5D.pdf', 'JDBC: Explorando Persistência de Dados com Java - 6 horas')">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-certificate text-3xl text-indigo-400 mr-3"></i>
+              <h4 class="text-xl font-semibold">JDBC e Persistência</h4>
+            </div>
+            <p class="text-gray-400 mb-2">Concluído em: 05/08/2025</p>
+            <p class="text-gray-400">Carga horária: 6 horas</p>
+          </div>
+          
+          <!-- Certificado 4 -->
+          <div class="certificate-card bg-gray-800 p-6 rounded-xl shadow cursor-pointer" onclick="openModal('CE0C8KNA.pdf', 'Dominando Interfaces e Lambda em Java - 2 horas')">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-certificate text-3xl text-indigo-400 mr-3"></i>
+              <h4 class="text-xl font-semibold">Interfaces e Lambda</h4>
+            </div>
+            <p class="text-gray-400 mb-2">Concluído em: 29/07/2025</p>
+            <p class="text-gray-400">Carga horária: 2 horas</p>
+          </div>
+          
+          <!-- Certificado 5 -->
+          <div class="certificate-card bg-gray-800 p-6 rounded-xl shadow cursor-pointer" onclick="openModal('E3MDEABJ.pdf', 'Conhecendo Collections Java - 4 horas')">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-certificate text-3xl text-indigo-400 mr-3"></i>
+              <h4 class="text-xl font-semibold">Collections Java</h4>
+            </div>
+            <p class="text-gray-400 mb-2">Concluído em: 30/07/2025</p>
+            <p class="text-gray-400">Carga horária: 4 horas</p>
+          </div>
+          
+          <!-- Certificado 6 -->
+          <div class="certificate-card bg-gray-800 p-6 rounded-xl shadow cursor-pointer" onclick="openModal('EIKYNVPK.pdf', 'Herança e Polimorfismo em Java - 2 horas')">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-certificate text-3xl text-indigo-400 mr-3"></i>
+              <h4 class="text-xl font-semibold">Herança e Polimorfismo</h4>
+            </div>
+            <p class="text-gray-400 mb-2">Concluído em: 29/07/2025</p>
+            <p class="text-gray-400">Carga horária: 2 horas</p>
+          </div>
+          
+          <!-- Botão para ver mais certificados -->
+          <div class="text-center mt-8 col-span-full">
+            <button onclick="showAllCertificates()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition">
+              Ver Todos os Certificados
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12 text-center">Serviços</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="text-indigo-400 text-3xl mb-4">🔌</div>
+            <h4 class="text-xl font-semibold mb-4">APIs RESTful</h4>
+            <p class="text-gray-300">Desenvolvimento de APIs modernas com Java e Spring Boot, seguindo as melhores práticas de design e performance.</p>
+          </div>
+          <div class="bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="text-indigo-400 text-3xl mb-4">🗃</div>
+            <h4 class="text-xl font-semibold mb-4">Integração com Bancos de Dados</h4>
+            <p class="text-gray-300">Modelagem e integração com PostgreSQL e MySQL, otimização de queries e garantia de consistência de dados.</p>
+          </div>
+          <div class="bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="text-indigo-400 text-3xl mb-4">🔒</div>
+            <h4 class="text-xl font-semibold mb-4">Deploy e Segurança</h4>
+            <p class="text-gray-300">Publicação de sistemas com autenticação robusta usando Spring Security e JWT, garantindo a proteção dos dados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12 text-center">Projetos</h3>
+        <div class="grid md:grid-cols-2 gap-8" id="projects-container">
+          <!-- Projeto 1: API de Produtos e Estoque -->
+          <div class="bg-gray-800 p-6 rounded-xl shadow project-card">
+            <h4 class="text-2xl font-semibold mb-3">API de Produtos e Estoque</h4>
+            <p class="text-gray-400 mb-4">API RESTful desenvolvida com Spring Boot para gerenciamento de produtos e controle de estoque, com operações CRUD completas e validações.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-indigo-900 text-indigo-300 px-2 py-1 rounded text-sm">Java</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">Spring Boot</span>
+            </div>
+            <a href="https://github.com/Keven-Nogueira-da-Silva/API-de-Produtos-e-Estoque" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition inline-block">
+              Ver Repositório
+            </a>
+          </div>
+          
+          <!-- Projeto 2: Gerenciamento de Usuário -->
+          <div class="bg-gray-800 p-6 rounded-xl shadow project-card">
+            <h4 class="text-2xl font-semibold mb-3">Gerenciamento de Usuário</h4>
+            <p class="text-gray-400 mb-4">Sistema completo de gerenciamento de usuários com autenticação, autorização e operações CRUD, desenvolvido com Java e Spring Security.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-indigo-900 text-indigo-300 px-2 py-1 rounded text-sm">Java</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">Spring Boot</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">Spring Security</span>
+            </div>
+            <a href="https://github.com/Keven-Nogueira-da-Silva/Gerenciamento-de-usuario" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition inline-block">
+              Ver Repositório
+            </a>
+          </div>
+
+          <!-- Projeto 3: Sistema de Reservas API -->
+          <div class="bg-gray-800 p-6 rounded-xl shadow project-card">
+            <h4 class="text-2xl font-semibold mb-3">Sistema de Reservas API</h4>
+            <p class="text-gray-400 mb-4">API para sistema de reservas com cadastro de clientes, recursos e agendamentos, desenvolvida com Spring Boot e padrões REST.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-indigo-900 text-indigo-300 px-2 py-1 rounded text-sm">Java</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">Spring Boot</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">REST API</span>
+            </div>
+            <a href="https://github.com/Keven-Nogueira-da-Silva/Sistema-de-reservasApi" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition inline-block">
+              Ver Repositório
+            </a>
+          </div>
+          
+          <!-- Projeto 4: User_system -->
+          <div class="bg-gray-800 p-6 rounded-xl shadow project-card">
+            <h4 class="text-2xl font-semibold mb-3">Sistema de Usuários</h4>
+            <p class="text-gray-400 mb-4">Sistema completo para gestão de usuários com autenticação JWT, roles de acesso e operações CRUD, desenvolvido com Java Spring Boot.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-indigo-900 text-indigo-300 px-2 py-1 rounded text-sm">Java</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">Spring Boot</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">JWT</span>
+              <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">Spring Security</span>
+            </div>
+            <a href="https://github.com/Keven-Nogueira-da-Silva/User_system" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition inline-block">
+              Ver Repositório
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold mb-8">Contato</h3>
+        <p class="text-lg mb-6 max-w-2xl mx-auto">Entre em contato para colaborações ou oportunidades. Estou sempre aberto a discutir novos projetos e ideias!</p>
+        <div class="bg-gray-700 p-8 rounded-xl shadow-lg inline-block text-left">
+          <div class="mb-4">
+            <span class="text-indigo-400 font-medium">Email:</span>
+            <a href="mailto:keven@email.com" class="text-white hover:text-indigo-300 transition">kevenbjj7@gmail.com</a>
+          </div>
+          <div class="mb-4">
+            <span class="text-indigo-400 font-medium">Telefone:</span>
+            <span class="text-white">(21) 97535 8574</span>
+          </div>
+          <div class="mt-6 space-x-4">
+            <a href="https://github.com/Keven-Nogueira-da-Silva" target="_blank" class="bg-gray-600 hover:bg-gray-500 text-white px-5 py-2 rounded-lg font-medium transition inline-flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/keven-nogueira-da-silva-44237b361/" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-lg font-medium transition inline-flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 text-center border-t border-gray-800">
+      <div class="container mx-auto px-6">
+        <p class="text-gray-500">&copy; 2025 Keven Nogueira da Silva. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Modal para certificados -->
+    <div id="certificateModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 hidden">
+      <div class="bg-gray-800 rounded-xl p-6 max-w-4xl w-full mx-4 certificate-modal">
+        <div class="flex justify-between items-center mb-4">
+          <h3 id="modalTitle" class="text-2xl font-bold"></h3>
+          <button onclick="closeModal()" class="text-gray-400 hover:text-white text-3xl">&times;</button>
+        </div>
+        <div class="overflow-auto">
+          <img id="modalImage" src="" alt="Certificado" class="certificate-img w-full rounded-lg shadow-lg">
+        </div>
+        <div class="mt-4 text-right">
+          <button onclick="closeModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para todos os certificados -->
+<div id="allCertificatesModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 hidden overflow-y-auto">
+  <div class="bg-gray-800 rounded-xl p-6 max-w-6xl w-full mx-4 my-8 max-h-screen overflow-y-auto">
+    <div class="flex justify-between items-center mb-6">
+      <h3 class="text-2xl font-bold">Todos os Certificados</h3>
+      <button onclick="closeAllCertificatesModal()" class="text-gray-400 hover:text-white text-3xl">&times;</button>
+    </div>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <!-- Certificado 1 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Sintaxe Básica com Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 6 horas</p>
+        <img src="imagens/image.png" alt="Certificado Sintaxe Básica com Java" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 2 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Ganhando Produtividade com Stream API</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 01/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image1.png" alt="Certificado Stream API" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 3 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">JDBC: Explorando Persistência de Dados com Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 05/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 6 horas</p>
+        <img src="imagens/image2.png" alt="Certificado JDBC" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 4 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Dominando Interfaces e Lambda em Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 29/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image3.png" alt="Certificado Interfaces e Lambda" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 5 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Conhecendo Collections Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 30/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 4 horas</p>
+        <img src="imagens/image4.png" alt="Certificado Collections Java" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 6 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Herança e Polimorfismo em Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 29/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image5.png" alt="Certificado Herança e Polimorfismo" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 7 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Estruturas de Controle em Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image6.png" alt="Certificado Estruturas de Controle" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 8 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Fundamentos da Linguagem Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image7.png" alt="Certificado Fundamentos Java" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 9 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Introdução ao GFT Start #7</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 1 hora</p>
+        <img src="imagens/image8.png" alt="Certificado GFT Start" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 10 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Introdução ao Java e seu Ambiente</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image9.png" alt="Certificado Introdução Java" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 11 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Introdução Banco de Dados</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 05/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image10.png" alt="Certificado Banco de Dados" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 12 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Praticando com Collections Java</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 30/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 1 hora</p>
+        <img src="imagens/image11.png" alt="Certificado Praticando Collections" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 13 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Debugging e Tratamento de Exceções</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 04/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image12.png" alt="Certificado Debugging Java" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 14 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Introdução ao MongoDB e NoSQL</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 05/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 3 horas</p>
+        <img src="imagens/image13.png" alt="Certificado MongoDB" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 15 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Abstraindo um Bootcamp com OO</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 01/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image14.png" alt="Certificado Bootcamp OO" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 16 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Desafios de Código</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 1 hora</p>
+        <img src="imagens/image15.png" alt="Certificado Desafios de Código" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 17 -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Java e a Arte da Abstração</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 28/07/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 2 horas</p>
+        <img src="imagens/image16.png" alt="Certificado Abstração Java" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 18 - POO -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Programação Orientada a Objetos</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 01/08/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 20 horas</p>
+        <img src="imagens/image18.png" alt="Certificado POO" class="w-full rounded shadow">
+      </div>
+      
+      <!-- Certificado 19 - Python -->
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Jornada Python da Hashtag</h4>
+        <p class="text-gray-400 mb-1">Concluído em: 16/01/2025</p>
+        <p class="text-gray-400 mb-3">Carga horária: 8 horas</p>
+        <img src="IIMG/image.png" alt="Certificado Jornada Python" class="w-full rounded shadow">
+      </div>
+    </div>
+
+    <div class="mt-6 text-right">
+      <button onclick="closeAllCertificatesModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg font-medium transition">
+        Fechar
+      </button>
+    </div>
+  </div>
+</div>
+
+        <div class="mt-6 text-right">
+          <button onclick="closeAllCertificatesModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg font-medium transition">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
