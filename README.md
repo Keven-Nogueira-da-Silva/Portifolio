@@ -44,7 +44,7 @@ Olá! Eu sou **Keven Nogueira da Silva**, desenvolvedor focado em criar portfól
 
 ### 📬 Contato
 <div align="center">
-  <a href="kevenbjj7@gmail.com"><img src="https://img.shields.io/badge/Email-Me-red?style=flat-square&logo=gmail" alt="Email"/></a>
+  <a href="https://mail.google.com/mail/u/5/#inbox"><img src="https://img.shields.io/badge/Email-Me-red?style=flat-square&logo=gmail" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/keven-nogueira-da-silva-44237b361/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
 </div>
 
