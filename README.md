@@ -44,9 +44,8 @@ Olá! Eu sou **Keven Nogueira da Silva**, desenvolvedor focado em criar portfól
 
 ### 📬 Contato
 <div align="center">
-  <a href="https://twitter.com/seu_twitter"><img src="https://img.shields.io/twitter/follow/seu_twitter?color=blue&logo=twitter&style=flat-square" alt="Twitter"/></a>
-  <a href="mailto:seu.email@example.com"><img src="https://img.shields.io/badge/Email-Me-red?style=flat-square&logo=gmail" alt="Email"/></a>
-  <a href="https://linkedin.com/in/seu_linkedin"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="kevenbjj7@gmail.com"><img src="https://img.shields.io/badge/Email-Me-red?style=flat-square&logo=gmail" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/keven-nogueira-da-silva-44237b361/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
 </div>
 
 EOF
